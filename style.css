@@ -32,7 +32,6 @@ nav ul li a:hover{
     display: grid;
     grid-template-columns: 200px 200px 200px 200px 200px;
     grid-template-rows: 200px 200px 200px 2000px 200px;
-    grid-auto-rows: ;
     gap: 1em;
     justify-content: center;
     align-items: center;
@@ -51,6 +50,7 @@ nav ul li a:hover{
     font-size: 1.5rem;
 }
 .container{
+    gap: 1em;
     align-items: center;
     display: grid;
     grid-template-columns: 200px 200px 200px;
@@ -59,4 +59,8 @@ nav ul li a:hover{
 .icon{
     background-color: blue;
     border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 1em;
 }
