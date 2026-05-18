@@ -27,22 +27,18 @@ nav ul li a{
 nav ul li a:hover{
     background-color: orange;
 }
-.container{
-    width: 450px;
-    height: 250px;
-    background-color: rgb(71, 69, 69);
-    color: yellow;
-    border-radius: 10px;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
-    margin-top: 10px;
-    justify-content: center;
-    display: flex;
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 1em;
 }
-h3, h4{
-   text-align: center;
-   align-content: center;
+.item{
+    height: 100px;
+    width: 100px;
+    padding: 2em;
+    background-color: blue;
 }
 
 
