@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 nav{
     background-color: black;
     padding: 1em;
@@ -24,8 +27,22 @@ nav ul li a{
 nav ul li a:hover{
     background-color: orange;
 }
-
 .container{
-    
+    width: 450px;
+    height: 250px;
+    background-color: rgb(71, 69, 69);
+    color: yellow;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
 }
+h3, h4{
+   text-align: center;
+   align-content: center;
+}
+
 
