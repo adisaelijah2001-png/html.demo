@@ -30,8 +30,9 @@ nav ul li a:hover{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 2000px 200px;
+    grid-auto-rows: 200px;
     gap: 1em;
     justify-content: center;
     align-items: center;
