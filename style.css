@@ -1,9 +1,4 @@
-body{
-    padding: 0%;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-}
+
 
 nav{
     background-color: black;
@@ -28,7 +23,7 @@ nav ul li a{
     cursor: pointer;
 }
 nav ul li a:hover{
-    background-color: orange;
+    background-color: rgb(114, 85, 85);
 }
 
 .grid-container{
